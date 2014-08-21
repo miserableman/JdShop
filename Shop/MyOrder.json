@@ -1,0 +1,43 @@
+{
+  "data": [
+    {
+      "order_id": "11",
+      "order_sn": "2009051264945",
+      "order_time": "2009/05/13 00:04:10 +0000",
+      "total_fee": "￥3810.00元",
+      "goods_list": [
+        {
+          "goods_id": "23",
+          "name": "诺基亚N96",
+          "goods_number": "1",
+          "subtotal": "￥3800.00元",
+          "formated_shop_price": "￥3800.00元",
+          "img": {
+            "small": "http://121.40.123.81/images/200905/thumb_img/23_thumb_G_1241971556399.jpg",
+            "thumb": "http://121.40.123.81/images/200905/goods_img/23_G_1241971556855.jpg",
+            "url": "http://121.40.123.81/images/200905/source_img/23_G_1241971556256.jpg"
+          }
+        }
+      ],
+      "formated_integral_money": "￥0.00元",
+      "formated_bonus": "￥0.00元",
+      "formated_shipping_fee": "￥10.00元",
+      "order_info": {
+        "pay_code": "bank",
+        "order_amount": "3810.00",
+        "order_id": "11",
+        "subject": "诺基亚N96等1种商品",
+        "desc": "诺基亚N96等1种商品",
+        "order_sn": "2009051264945"
+      }
+    }
+  ],
+  "status": {
+    "succeed": 1
+  },
+  "paginated": {
+    "total": 1,
+    "count": 1,
+    "more": 0
+  }
+}
