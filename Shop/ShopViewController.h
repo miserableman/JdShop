@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ShopViewController : UIViewController
+@interface ShopViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@property (strong, nonatomic) IBOutlet UIButton *btnFix;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+- (IBAction)btnFix:(id)sender;
+@property (strong, nonatomic) IBOutlet UIButton *btnNotComplete;
 
 @end

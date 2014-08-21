@@ -18,6 +18,17 @@
 		5025EFCC199DBDB20009B06C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5025EFCB199DBDB20009B06C /* Default-568h@2x.png */; };
 		5025EFCF199DBDB20009B06C /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5025EFCE199DBDB20009B06C /* ShopViewController.m */; };
 		5025EFD2199DBDB20009B06C /* ShopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5025EFD0199DBDB20009B06C /* ShopViewController.xib */; };
+		50566BCB19A1DE21005B0EA7 /* Order.png in Resources */ = {isa = PBXBuildFile; fileRef = 50566BCA19A1DE21005B0EA7 /* Order.png */; };
+		50566BCE19A1E2D0005B0EA7 /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50566BCD19A1E2D0005B0EA7 /* DetailCell.m */; };
+		5075598619A1FE2200C8945C /* wwc.png in Resources */ = {isa = PBXBuildFile; fileRef = 5075598519A1FE2200C8945C /* wwc.png */; };
+		5075598819A201FD00C8945C /* wc.png in Resources */ = {isa = PBXBuildFile; fileRef = 5075598719A201FD00C8945C /* wc.png */; };
+		5075598A19A2031F00C8945C /* px.png in Resources */ = {isa = PBXBuildFile; fileRef = 5075598919A2031F00C8945C /* px.png */; };
+		5078156F19A19A0100433589 /* DetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5078156E19A19A0100433589 /* DetailCell.xib */; };
+		507BCD4F19A2DC2D002D450F /* wfk.png in Resources */ = {isa = PBXBuildFile; fileRef = 507BCD4E19A2DC2D002D450F /* wfk.png */; };
+		507BCD5119A2E01A002D450F /* CompleteOrder.png in Resources */ = {isa = PBXBuildFile; fileRef = 507BCD5019A2E01A002D450F /* CompleteOrder.png */; };
+		507BCD5319A2E028002D450F /* qufukuan2.png in Resources */ = {isa = PBXBuildFile; fileRef = 507BCD5219A2E028002D450F /* qufukuan2.png */; };
+		507BCD5519A2E1AF002D450F /* DetailOrder.png in Resources */ = {isa = PBXBuildFile; fileRef = 507BCD5419A2E1AF002D450F /* DetailOrder.png */; };
+		507BCD5719A2E494002D450F /* bk1.png in Resources */ = {isa = PBXBuildFile; fileRef = 507BCD5619A2E494002D450F /* bk1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +48,18 @@
 		5025EFCD199DBDB20009B06C /* ShopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
 		5025EFCE199DBDB20009B06C /* ShopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
 		5025EFD1199DBDB20009B06C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ShopViewController.xib; sourceTree = "<group>"; };
+		50566BCA19A1DE21005B0EA7 /* Order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Order.png; sourceTree = "<group>"; };
+		50566BCC19A1E2D0005B0EA7 /* DetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCell.h; sourceTree = SOURCE_ROOT; };
+		50566BCD19A1E2D0005B0EA7 /* DetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCell.m; sourceTree = SOURCE_ROOT; };
+		5075598519A1FE2200C8945C /* wwc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wwc.png; sourceTree = "<group>"; };
+		5075598719A201FD00C8945C /* wc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wc.png; sourceTree = "<group>"; };
+		5075598919A2031F00C8945C /* px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = px.png; sourceTree = "<group>"; };
+		5078156E19A19A0100433589 /* DetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailCell.xib; sourceTree = "<group>"; };
+		507BCD4E19A2DC2D002D450F /* wfk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wfk.png; sourceTree = "<group>"; };
+		507BCD5019A2E01A002D450F /* CompleteOrder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CompleteOrder.png; sourceTree = "<group>"; };
+		507BCD5219A2E028002D450F /* qufukuan2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qufukuan2.png; sourceTree = "<group>"; };
+		507BCD5419A2E1AF002D450F /* DetailOrder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DetailOrder.png; sourceTree = "<group>"; };
+		507BCD5619A2E494002D450F /* bk1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bk1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +108,9 @@
 			children = (
 				5025EFC4199DBDB20009B06C /* ShopAppDelegate.h */,
 				5025EFC5199DBDB20009B06C /* ShopAppDelegate.m */,
+				50566BCC19A1E2D0005B0EA7 /* DetailCell.h */,
+				50566BCD19A1E2D0005B0EA7 /* DetailCell.m */,
+				5078156E19A19A0100433589 /* DetailCell.xib */,
 				5025EFCD199DBDB20009B06C /* ShopViewController.h */,
 				5025EFCE199DBDB20009B06C /* ShopViewController.m */,
 				5025EFD0199DBDB20009B06C /* ShopViewController.xib */,
@@ -96,6 +122,15 @@
 		5025EFBC199DBDB20009B06C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				507BCD5619A2E494002D450F /* bk1.png */,
+				507BCD5419A2E1AF002D450F /* DetailOrder.png */,
+				507BCD5219A2E028002D450F /* qufukuan2.png */,
+				507BCD5019A2E01A002D450F /* CompleteOrder.png */,
+				507BCD4E19A2DC2D002D450F /* wfk.png */,
+				5075598919A2031F00C8945C /* px.png */,
+				5075598719A201FD00C8945C /* wc.png */,
+				5075598519A1FE2200C8945C /* wwc.png */,
+				50566BCA19A1DE21005B0EA7 /* Order.png */,
 				5025EFBD199DBDB20009B06C /* Shop-Info.plist */,
 				5025EFBE199DBDB20009B06C /* InfoPlist.strings */,
 				5025EFC1199DBDB20009B06C /* main.m */,
@@ -164,6 +199,16 @@
 				5025EFCA199DBDB20009B06C /* Default@2x.png in Resources */,
 				5025EFCC199DBDB20009B06C /* Default-568h@2x.png in Resources */,
 				5025EFD2199DBDB20009B06C /* ShopViewController.xib in Resources */,
+				5078156F19A19A0100433589 /* DetailCell.xib in Resources */,
+				50566BCB19A1DE21005B0EA7 /* Order.png in Resources */,
+				5075598619A1FE2200C8945C /* wwc.png in Resources */,
+				5075598819A201FD00C8945C /* wc.png in Resources */,
+				5075598A19A2031F00C8945C /* px.png in Resources */,
+				507BCD4F19A2DC2D002D450F /* wfk.png in Resources */,
+				507BCD5119A2E01A002D450F /* CompleteOrder.png in Resources */,
+				507BCD5319A2E028002D450F /* qufukuan2.png in Resources */,
+				507BCD5519A2E1AF002D450F /* DetailOrder.png in Resources */,
+				507BCD5719A2E494002D450F /* bk1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +222,7 @@
 				5025EFC2199DBDB20009B06C /* main.m in Sources */,
 				5025EFC6199DBDB20009B06C /* ShopAppDelegate.m in Sources */,
 				5025EFCF199DBDB20009B06C /* ShopViewController.m in Sources */,
+				50566BCE19A1E2D0005B0EA7 /* DetailCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +345,7 @@
 				5025EFD7199DBDB20009B06C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
