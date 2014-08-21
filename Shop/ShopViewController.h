@@ -9,9 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ShopViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@property (strong,nonatomic) NSArray *arry;
 @property (strong, nonatomic) IBOutlet UIButton *btnFix;
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
-- (IBAction)btnFix:(id)sender;
 @property (strong, nonatomic) IBOutlet UIButton *btnNotComplete;
+@property (strong, nonatomic) IBOutlet UIButton *btnComplete;
+
 
 @end

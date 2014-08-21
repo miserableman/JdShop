@@ -19,6 +19,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSData* data = [NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"MyOrder" ofType:@"json"]];
+    NSDictionary* dictionary = [NSJSONSerialization JSONObjectWithData:  data options:NSJSONReadingMutableContainers error:nil];
+    NSLog(@"%@",dictionary);//""
+    self.arry = [dictionary objectForKey:@"data"];
+    for (NSDictionary *obj in self.arry) {
+         NSLog(@"%@",[obj objectForKey:@"formated_bonus"]);
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -27,25 +35,38 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)btnFix:(id)sender {
-    NSLog(@"aaa");
+// 未完成订单
+- (IBAction)btnNotComplete:(id)sender {
+    NSLog(@"NotComplete");
+    self.arry = [self.arry arrayByAddingObjectsFromArray:[NSArray arrayWithObjects:@"0987",@"0987",@"0987",@"0987", nil]];
+    [self.tableView reloadData];
+}
+// 完成订单
+- (IBAction)btnComplete:(id)sender {
+    NSLog(@"Complete");
 }
 
 #pragma mark tableview
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 10;
+    return [self.arry count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    NSDictionary *dictionary = [self.arry objectAtIndex:indexPath.row];
+    
+    
     static NSString *indentifier = @"LTCellWeiList";
     DetailCell *cell = (DetailCell *)[tableView dequeueReusableCellWithIdentifier:indentifier];
     if (cell == nil) {
         cell = [[[NSBundle mainBundle]loadNibNamed:@"DetailCell" owner:self options:nil]lastObject];
     }
     
-    cell.lblGoodDesc.text =@"土豪不是热土豪不是热土豪不是热土豪不是热";
-    
+    cell.lblGoodDesc.text =[dictionary objectForKey:@"name"];
+    NSLog(@"%@",dictionary);
+    NSLog(@"%@",[dictionary objectForKey:@"name"]);
+  
+    cell.lblGoodNum.text = [dictionary objectForKey:@"subtotal"];
     
 
     

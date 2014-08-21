@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500CFA1719A4879200D8C7A0 /* MyOrder.json in Resources */ = {isa = PBXBuildFile; fileRef = 500CFA1619A4879200D8C7A0 /* MyOrder.json */; };
+		501D897D19A4675A00C06334 /* wwc1.png in Resources */ = {isa = PBXBuildFile; fileRef = 501D897C19A4675A00C06334 /* wwc1.png */; };
+		501D897F19A4676400C06334 /* wc2.png in Resources */ = {isa = PBXBuildFile; fileRef = 501D897E19A4676400C06334 /* wc2.png */; };
 		5025EFB6199DBDB20009B06C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5025EFB5199DBDB20009B06C /* UIKit.framework */; };
 		5025EFB8199DBDB20009B06C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5025EFB7199DBDB20009B06C /* Foundation.framework */; };
 		5025EFBA199DBDB20009B06C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5025EFB9199DBDB20009B06C /* CoreGraphics.framework */; };
@@ -32,6 +35,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		500CFA1619A4879200D8C7A0 /* MyOrder.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MyOrder.json; path = "../../../../../../Volumes/VMware Shared Folders/Temp/shop/MyOrder.json"; sourceTree = "<group>"; };
+		501D897C19A4675A00C06334 /* wwc1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wwc1.png; path = "../../../../../../Volumes/VMware Shared Folders/Temp/shop/wwc1.png"; sourceTree = "<group>"; };
+		501D897E19A4676400C06334 /* wc2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wc2.png; path = "../../../../../../Volumes/VMware Shared Folders/Temp/shop/wc2.png"; sourceTree = "<group>"; };
 		5025EFB2199DBDB20009B06C /* Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5025EFB5199DBDB20009B06C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5025EFB7199DBDB20009B06C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -122,6 +128,9 @@
 		5025EFBC199DBDB20009B06C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				500CFA1619A4879200D8C7A0 /* MyOrder.json */,
+				501D897E19A4676400C06334 /* wc2.png */,
+				501D897C19A4675A00C06334 /* wwc1.png */,
 				507BCD5619A2E494002D450F /* bk1.png */,
 				507BCD5419A2E1AF002D450F /* DetailOrder.png */,
 				507BCD5219A2E028002D450F /* qufukuan2.png */,
@@ -209,6 +218,9 @@
 				507BCD5319A2E028002D450F /* qufukuan2.png in Resources */,
 				507BCD5519A2E1AF002D450F /* DetailOrder.png in Resources */,
 				507BCD5719A2E494002D450F /* bk1.png in Resources */,
+				501D897D19A4675A00C06334 /* wwc1.png in Resources */,
+				501D897F19A4676400C06334 /* wc2.png in Resources */,
+				500CFA1719A4879200D8C7A0 /* MyOrder.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
